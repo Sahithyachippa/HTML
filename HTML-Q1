@@ -1,0 +1,66 @@
+<html>
+<head><title>Placement_Registration.html</title></head>
+<body>
+<form>
+<input type="radio" name="Gender" value="Mr">
+<label>mr</label>
+<input type="radio" name="Gender" value="Mrs">
+<label>mrs</label>
+<input type="radio" name="Gender" value="Ms">
+<label>ms</label>
+<br>
+<label>Student ID:<input type="'text" name="A"></label>
+<br>
+First Name:<input type="text" name="B">
+<br>
+Last Name:<input type="text" name="c">
+<br>
+Username:<input type="text" name="c">
+<br>
+Password:<input type="password" name="c">
+<br>
+Address:
+<textarea id="freeform" name="freeform" rows="4" cols="50">
+Enter text here...
+</textarea>
+<br>
+City:<input type="text" name="c">
+<br>
+<label>state:</label>
+<select>
+<option value="telangana">Telangana</option>
+<option value="Andhra">Andhra</option>
+<option value="telangana">maharashtra</option>
+<option value="telangana">goa</option>
+</select>
+<br>
+<label>upload file:</label>
+<input type="file" name="file">
+<br>
+Pincode:<input type="text" name="c">
+<br>
+Email:<input type="text" name="c">
+<br>
+mobile no.:<input type="tell" placeholder="+91">
+<br>
+languges known:<li><input type="checkbox" name="english" value="english"</li>
+<label>english</label>
+        <li><input type="checkbox" name="telugu" value="telugu" </li>
+    <label>telugu</label>    
+        <li><input type="checkbox" name="hindi" value="hindi" </li>
+ <label>hindi</label>       
+<br>
+Additional information:
+<textarea id="freeform" name="freeform" rows="4" cols="50">
+Enter text here...
+</textarea>
+<br>
+<input type="radio" name="conditions" value="conditions">
+<label>Accept the terms and conditions</label>
+<br>
+<input type="submit" name="sign in" value="submit">
+<input type="Reset" name="Reset" value="Reset">
+
+</form>
+</body>
+</html>
